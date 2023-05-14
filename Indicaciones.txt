@@ -1,0 +1,33 @@
+Pasos para utilizar la aplicación:
+
+1. Asegúrate de tener disponible PHPMyAdmin en tu ordenador. Si no lo tienes instalado, descárgalo e instálalo siguiendo las instrucciones del sitio oficial.
+
+2. Abre PHPMyAdmin y crea dos bases de datos con los siguientes nombres: "proyecto_algoritmo" y "proyecto_algoritmo_empresas".
+
+3. Para importar la tabla de rutas de autobuses, descarga el archivo "buses" en formato .ods ubicado en la carpeta "Proyecto_completo" del proyecto.
+
+4. En PHPMyAdmin, selecciona la base de datos "proyecto_algoritmo" y crea una nueva tabla llamada "hoja1". Asegúrate de que los campos tengan los siguientes tipos de datos: id (int), empresa (varchar) y descripcion (varchar).
+
+5. En la pestaña "Importar", selecciona el archivo "buses" y asegúrate de que la opción "Primera fila corresponde a los campos" esté activada.
+
+6. Repite los pasos 3-5 para importar la tabla de empresas. Descarga el archivo "lista_Empresas" en formato .ods ubicado en la carpeta "Recursos" del proyecto y asegúrate de que la tabla se llame "hoja1" y tenga los campos id (int),nombre (varchar) y limite(int).
+
+7. Ahora que la base de datos está configurada, ejecuta el archivo "ProyectoOficial.py" en tu entorno de desarrollo Python o haz doble clic en el archivo "ProyectoOficial.pyw" para ejecutarlo en segundo plano.
+
+8. Ingresa la dirección de origen y destino en la aplicación y selecciona la empresa de autobuses que te gustaría utilizar para el viaje.
+
+9. Haz clic en "Buscar" y la aplicación te mostrará las rutas disponibles.
+
+10. ¡Listo! Ahora podrás planificar mejor tus viajes en autobús con la ayuda de nuestra aplicación.
+
+Créditos:
+
+- Desarrollado por: 
+.Habit Enrrique Cabrera Arzuza
+.Diego Tamara Rodelo
+.Julio Orrego Villareal
+.Jorge de Jesús Morales Nova
+
+
+- Versión: 1.0
+- Contacto: moralesnovajorgedejesus@gmail.com
